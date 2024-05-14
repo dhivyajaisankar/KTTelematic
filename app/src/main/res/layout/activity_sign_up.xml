@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:background="#0083BF"
+        android:id="@+id/Header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:gravity="center_horizontal"
+        android:padding="15dp"
+        android:text="ENROLL YOURSELF"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/Name_EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Header"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#00106A"
+        android:layout_marginEnd="10dp"
+        android:hint="Enter UserName"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/password_EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Name_EditText"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Enter Password"
+        android:backgroundTint="#00106A"
+        android:inputType="textPassword" />
+    <EditText
+        android:id="@+id/Mobile_EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password_EditText"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Enter Mobile No"
+        android:backgroundTint="#00106A"
+        android:inputType="textEmailAddress" />
+
+
+    <Button
+        android:id="@+id/Register_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:background="#41C0FA"
+        android:textColor="@color/white"
+        android:text="Register"
+        android:textAllCaps="true"
+        />
+
+    <Button
+        android:id="@+id/login_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:background="#41C0FA"
+        android:textColor="@color/white"
+        android:text="Login"
+        android:textAllCaps="true"
+        />
+
+</LinearLayout>
